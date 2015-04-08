@@ -8,7 +8,7 @@ To obtain a version of the source code simply pull it from this repository and i
 
 ## Cocoapods initialization
 
-This project uses Cocoapods for dependency management. Usually the pods are excluded from Git because they can be downloaded on demand for each client. To setup Cocoapods follow the following steps:
+This project uses Cocoapods for dependency management. Usually the pods are excluded from Git because they can be downloaded on demand for each client. To setup Cocoapods follow these steps:
 
 1. Follow the tutorial here to install Cocoapods on your machine - https://cocoapods.org/
 2. Open Terminal and navigate to the project directory.
