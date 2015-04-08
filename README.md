@@ -4,7 +4,7 @@ This is the iOS version of the Trails project.
 
 ## Installation
 
-To obtain a version of the source gode simply pull it from this repository and initialize Cocoapods.
+To obtain a version of the source code simply pull it from this repository and initialize Cocoapods.
 
 ## Cocoapods initialization
 
