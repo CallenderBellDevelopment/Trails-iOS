@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5BB42551AD54B0700012BF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB42541AD54B0700012BF6 /* main.m */; };
+		E5BB42581AD54B0700012BF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB42571AD54B0700012BF6 /* AppDelegate.m */; };
+		E5BB42601AD54B0700012BF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5BB425F1AD54B0700012BF6 /* Images.xcassets */; };
+		E5BB426F1AD54B0700012BF6 /* Trails_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB426E1AD54B0700012BF6 /* Trails_iOSTests.m */; };
+		E5BB42791AD54C7C00012BF6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BB42781AD54C7C00012BF6 /* Default-568h@2x.png */; };
+		E5BB435E1AD54DAB00012BF6 /* LoginHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB42981AD54DAB00012BF6 /* LoginHomeViewController.m */; };
+		E5BB435F1AD54DAB00012BF6 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BB42991AD54DAB00012BF6 /* LoginStoryboard.storyboard */; };
+		E5BB43601AD54DAB00012BF6 /* RecoverPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB429B1AD54DAB00012BF6 /* RecoverPasswordViewController.m */; };
+		E5BB43611AD54DAB00012BF6 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB429D1AD54DAB00012BF6 /* SignUpViewController.m */; };
+		E5BB43621AD54DAB00012BF6 /* TermsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB429F1AD54DAB00012BF6 /* TermsViewController.m */; };
+		E5BB43631AD54DAB00012BF6 /* SplashStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BB42A11AD54DAB00012BF6 /* SplashStoryboard.storyboard */; };
+		E5BB43651AD54DAB00012BF6 /* SplashStoryboard~ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BB42A61AD54DAB00012BF6 /* SplashStoryboard~ipad.storyboard */; };
+		E5BB43871AD54DAB00012BF6 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB42F71AD54DAB00012BF6 /* LoadingView.m */; };
+		E5BB43881AD54DAB00012BF6 /* LoadingViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB42F91AD54DAB00012BF6 /* LoadingViewManager.m */; };
+		E5BB43891AD54DAB00012BF6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB42FB1AD54DAB00012BF6 /* MBProgressHUD.m */; };
+		E5BB43971AD54DAB00012BF6 /* NSString+HTMLStrip.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB431D1AD54DAB00012BF6 /* NSString+HTMLStrip.m */; };
+		E5BB43981AD54DAB00012BF6 /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB431F1AD54DAB00012BF6 /* UIActionSheet+Blocks.m */; };
+		E5BB43991AD54DAB00012BF6 /* RIButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB43221AD54DAB00012BF6 /* RIButtonItem.m */; };
+		E5BB439A1AD54DAB00012BF6 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB43241AD54DAB00012BF6 /* UIAlertView+Blocks.m */; };
+		E5BB439B1AD54DAB00012BF6 /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB43261AD54DAB00012BF6 /* UIBarButtonItem+Badge.m */; };
+		E5BB439C1AD54DAB00012BF6 /* UIImage+H568.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB43281AD54DAB00012BF6 /* UIImage+H568.m */; };
+		E5BB439D1AD54DAB00012BF6 /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB432A1AD54DAB00012BF6 /* UIImage+Tint.m */; };
+		E5BB439E1AD54DAB00012BF6 /* UILabel+Boldify.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB432C1AD54DAB00012BF6 /* UILabel+Boldify.m */; };
+		E5BB439F1AD54DAB00012BF6 /* UIView+NSObjectTag.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB432E1AD54DAB00012BF6 /* UIView+NSObjectTag.m */; };
+		E5BB43A01AD54DAB00012BF6 /* UIWindow+PazLabs.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB43301AD54DAB00012BF6 /* UIWindow+PazLabs.m */; };
+		E5BB43BA1AD5694100012BF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5BB43B91AD5694100012BF6 /* Foundation.framework */; };
+		E5BB43BC1AD5694900012BF6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5BB43BB1AD5694900012BF6 /* CoreData.framework */; };
+		E5BB43BE1AD5695A00012BF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5BB43BD1AD5695A00012BF6 /* UIKit.framework */; };
+		E5BB43C01AD5696300012BF6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5BB43BF1AD5696300012BF6 /* SystemConfiguration.framework */; };
+		E5BB43C21AD5696B00012BF6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5BB43C11AD5696B00012BF6 /* MobileCoreServices.framework */; };
+		FF7EC509AF90DDE93E69F32E /* Pods_Trails_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 344C7004D4A8788E25EFF61A /* Pods_Trails_iOS.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5BB42691AD54B0700012BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5BB42471AD54B0700012BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5BB424E1AD54B0700012BF6;
+			remoteInfo = "Trails-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		344C7004D4A8788E25EFF61A /* Pods_Trails_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trails_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		816F8F480920E71A18830139 /* Pods-Trails-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trails-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trails-iOS/Pods-Trails-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		B8CD2029BC0A1E7C36432D33 /* Pods-Trails-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trails-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trails-iOS/Pods-Trails-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E5BB424F1AD54B0700012BF6 /* Trails-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trails-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5BB42531AD54B0700012BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5BB42541AD54B0700012BF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5BB42561AD54B0700012BF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E5BB42571AD54B0700012BF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E5BB425F1AD54B0700012BF6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E5BB42681AD54B0700012BF6 /* Trails-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trails-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5BB426D1AD54B0700012BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5BB426E1AD54B0700012BF6 /* Trails_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trails_iOSTests.m; sourceTree = "<group>"; };
+		E5BB42781AD54C7C00012BF6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E5BB427D1AD54DAB00012BF6 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		E5BB42971AD54DAB00012BF6 /* LoginHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginHomeViewController.h; sourceTree = "<group>"; };
+		E5BB42981AD54DAB00012BF6 /* LoginHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginHomeViewController.m; sourceTree = "<group>"; };
+		E5BB42991AD54DAB00012BF6 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		E5BB429A1AD54DAB00012BF6 /* RecoverPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecoverPasswordViewController.h; sourceTree = "<group>"; };
+		E5BB429B1AD54DAB00012BF6 /* RecoverPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecoverPasswordViewController.m; sourceTree = "<group>"; };
+		E5BB429C1AD54DAB00012BF6 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		E5BB429D1AD54DAB00012BF6 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		E5BB429E1AD54DAB00012BF6 /* TermsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermsViewController.h; sourceTree = "<group>"; };
+		E5BB429F1AD54DAB00012BF6 /* TermsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermsViewController.m; sourceTree = "<group>"; };
+		E5BB42A11AD54DAB00012BF6 /* SplashStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SplashStoryboard.storyboard; sourceTree = "<group>"; };
+		E5BB42A61AD54DAB00012BF6 /* SplashStoryboard~ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "SplashStoryboard~ipad.storyboard"; sourceTree = "<group>"; };
+		E5BB42F61AD54DAB00012BF6 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		E5BB42F71AD54DAB00012BF6 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		E5BB42F81AD54DAB00012BF6 /* LoadingViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewManager.h; sourceTree = "<group>"; };
+		E5BB42F91AD54DAB00012BF6 /* LoadingViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewManager.m; sourceTree = "<group>"; };
+		E5BB42FA1AD54DAB00012BF6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		E5BB42FB1AD54DAB00012BF6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		E5BB431C1AD54DAB00012BF6 /* NSString+HTMLStrip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTMLStrip.h"; sourceTree = "<group>"; };
+		E5BB431D1AD54DAB00012BF6 /* NSString+HTMLStrip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTMLStrip.m"; sourceTree = "<group>"; };
+		E5BB431E1AD54DAB00012BF6 /* UIActionSheet+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Blocks.h"; sourceTree = "<group>"; };
+		E5BB431F1AD54DAB00012BF6 /* UIActionSheet+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Blocks.m"; sourceTree = "<group>"; };
+		E5BB43211AD54DAB00012BF6 /* RIButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIButtonItem.h; sourceTree = "<group>"; };
+		E5BB43221AD54DAB00012BF6 /* RIButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIButtonItem.m; sourceTree = "<group>"; };
+		E5BB43231AD54DAB00012BF6 /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		E5BB43241AD54DAB00012BF6 /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		E5BB43251AD54DAB00012BF6 /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
+		E5BB43261AD54DAB00012BF6 /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
+		E5BB43271AD54DAB00012BF6 /* UIImage+H568.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+H568.h"; sourceTree = "<group>"; };
+		E5BB43281AD54DAB00012BF6 /* UIImage+H568.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+H568.m"; sourceTree = "<group>"; };
+		E5BB43291AD54DAB00012BF6 /* UIImage+Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
+		E5BB432A1AD54DAB00012BF6 /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
+		E5BB432B1AD54DAB00012BF6 /* UILabel+Boldify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Boldify.h"; sourceTree = "<group>"; };
+		E5BB432C1AD54DAB00012BF6 /* UILabel+Boldify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Boldify.m"; sourceTree = "<group>"; };
+		E5BB432D1AD54DAB00012BF6 /* UIView+NSObjectTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NSObjectTag.h"; sourceTree = "<group>"; };
+		E5BB432E1AD54DAB00012BF6 /* UIView+NSObjectTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NSObjectTag.m"; sourceTree = "<group>"; };
+		E5BB432F1AD54DAB00012BF6 /* UIWindow+PazLabs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+PazLabs.h"; sourceTree = "<group>"; };
+		E5BB43301AD54DAB00012BF6 /* UIWindow+PazLabs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+PazLabs.m"; sourceTree = "<group>"; };
+		E5BB43B91AD5694100012BF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5BB43BB1AD5694900012BF6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E5BB43BD1AD5695A00012BF6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E5BB43BF1AD5696300012BF6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E5BB43C11AD5696B00012BF6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E5BB43C31AD5699100012BF6 /* Trails-iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Trails-iOS-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5BB424C1AD54B0700012BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BB43C21AD5696B00012BF6 /* MobileCoreServices.framework in Frameworks */,
+				E5BB43C01AD5696300012BF6 /* SystemConfiguration.framework in Frameworks */,
+				E5BB43BE1AD5695A00012BF6 /* UIKit.framework in Frameworks */,
+				E5BB43BC1AD5694900012BF6 /* CoreData.framework in Frameworks */,
+				E5BB43BA1AD5694100012BF6 /* Foundation.framework in Frameworks */,
+				FF7EC509AF90DDE93E69F32E /* Pods_Trails_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BB42651AD54B0700012BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CACF8B51E452DECDC4414AA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8CD2029BC0A1E7C36432D33 /* Pods-Trails-iOS.debug.xcconfig */,
+				816F8F480920E71A18830139 /* Pods-Trails-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5BB42461AD54B0700012BF6 = {
+			isa = PBXGroup;
+			children = (
+				E5BB42511AD54B0700012BF6 /* Trails-iOS */,
+				E5BB426B1AD54B0700012BF6 /* Trails-iOSTests */,
+				E5BB42501AD54B0700012BF6 /* Products */,
+				CACF8B51E452DECDC4414AA8 /* Pods */,
+				F24CF6A00BB5E2C7ACA72B67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E5BB42501AD54B0700012BF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5BB424F1AD54B0700012BF6 /* Trails-iOS.app */,
+				E5BB42681AD54B0700012BF6 /* Trails-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5BB42511AD54B0700012BF6 /* Trails-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E5BB42A71AD54DAB00012BF6 /* CustomUI */,
+				E5BB431B1AD54DAB00012BF6 /* Extends */,
+				E5BB43311AD54DAB00012BF6 /* ExternalLibs */,
+				E5BB427A1AD54DAB00012BF6 /* Classes */,
+				E5BB42561AD54B0700012BF6 /* AppDelegate.h */,
+				E5BB42571AD54B0700012BF6 /* AppDelegate.m */,
+				E5BB425F1AD54B0700012BF6 /* Images.xcassets */,
+				E5BB43381AD54DAB00012BF6 /* Resources */,
+				E5BB42521AD54B0700012BF6 /* Supporting Files */,
+			);
+			path = "Trails-iOS";
+			sourceTree = "<group>";
+		};
+		E5BB42521AD54B0700012BF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5BB43C31AD5699100012BF6 /* Trails-iOS-Prefix.pch */,
+				E5BB42781AD54C7C00012BF6 /* Default-568h@2x.png */,
+				E5BB42531AD54B0700012BF6 /* Info.plist */,
+				E5BB42541AD54B0700012BF6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5BB426B1AD54B0700012BF6 /* Trails-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5BB426E1AD54B0700012BF6 /* Trails_iOSTests.m */,
+				E5BB426C1AD54B0700012BF6 /* Supporting Files */,
+			);
+			path = "Trails-iOSTests";
+			sourceTree = "<group>";
+		};
+		E5BB426C1AD54B0700012BF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5BB426D1AD54B0700012BF6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5BB427A1AD54DAB00012BF6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E5BB427B1AD54DAB00012BF6 /* Constants */,
+				E5BB42941AD54DAB00012BF6 /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E5BB427B1AD54DAB00012BF6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E5BB427D1AD54DAB00012BF6 /* Constants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E5BB42941AD54DAB00012BF6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5BB42951AD54DAB00012BF6 /* Main */,
+				E5BB42A41AD54DAB00012BF6 /* MainiPad */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E5BB42951AD54DAB00012BF6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E5BB42961AD54DAB00012BF6 /* Login */,
+				E5BB42A01AD54DAB00012BF6 /* Splash */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E5BB42961AD54DAB00012BF6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E5BB42971AD54DAB00012BF6 /* LoginHomeViewController.h */,
+				E5BB42981AD54DAB00012BF6 /* LoginHomeViewController.m */,
+				E5BB429A1AD54DAB00012BF6 /* RecoverPasswordViewController.h */,
+				E5BB429B1AD54DAB00012BF6 /* RecoverPasswordViewController.m */,
+				E5BB429C1AD54DAB00012BF6 /* SignUpViewController.h */,
+				E5BB429D1AD54DAB00012BF6 /* SignUpViewController.m */,
+				E5BB429E1AD54DAB00012BF6 /* TermsViewController.h */,
+				E5BB429F1AD54DAB00012BF6 /* TermsViewController.m */,
+				E5BB42991AD54DAB00012BF6 /* LoginStoryboard.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E5BB42A01AD54DAB00012BF6 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				E5BB42A11AD54DAB00012BF6 /* SplashStoryboard.storyboard */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		E5BB42A41AD54DAB00012BF6 /* MainiPad */ = {
+			isa = PBXGroup;
+			children = (
+				E5BB42A51AD54DAB00012BF6 /* Splash */,
+			);
+			path = MainiPad;
+			sourceTree = "<group>";
+		};
+		E5BB42A51AD54DAB00012BF6 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				E5BB42A61AD54DAB00012BF6 /* SplashStoryboard~ipad.storyboard */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		E5BB42A71AD54DAB00012BF6 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				E5BB42A81AD54DAB00012BF6 /* Cell */,
+				E5BB42F51AD54DAB00012BF6 /* LoadingView */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		E5BB42A81AD54DAB00012BF6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E5BB42F51AD54DAB00012BF6 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				E5BB42F61AD54DAB00012BF6 /* LoadingView.h */,
+				E5BB42F71AD54DAB00012BF6 /* LoadingView.m */,
+				E5BB42F81AD54DAB00012BF6 /* LoadingViewManager.h */,
+				E5BB42F91AD54DAB00012BF6 /* LoadingViewManager.m */,
+				E5BB42FA1AD54DAB00012BF6 /* MBProgressHUD.h */,
+				E5BB42FB1AD54DAB00012BF6 /* MBProgressHUD.m */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		E5BB431B1AD54DAB00012BF6 /* Extends */ = {
+			isa = PBXGroup;
+			children = (
+				E5BB43201AD54DAB00012BF6 /* UIAlertView+Blocks */,
+				E5BB431C1AD54DAB00012BF6 /* NSString+HTMLStrip.h */,
+				E5BB431D1AD54DAB00012BF6 /* NSString+HTMLStrip.m */,
+				E5BB431E1AD54DAB00012BF6 /* UIActionSheet+Blocks.h */,
+				E5BB431F1AD54DAB00012BF6 /* UIActionSheet+Blocks.m */,
+				E5BB43251AD54DAB00012BF6 /* UIBarButtonItem+Badge.h */,
+				E5BB43261AD54DAB00012BF6 /* UIBarButtonItem+Badge.m */,
+				E5BB43271AD54DAB00012BF6 /* UIImage+H568.h */,
+				E5BB43281AD54DAB00012BF6 /* UIImage+H568.m */,
+				E5BB43291AD54DAB00012BF6 /* UIImage+Tint.h */,
+				E5BB432A1AD54DAB00012BF6 /* UIImage+Tint.m */,
+				E5BB432B1AD54DAB00012BF6 /* UILabel+Boldify.h */,
+				E5BB432C1AD54DAB00012BF6 /* UILabel+Boldify.m */,
+				E5BB432D1AD54DAB00012BF6 /* UIView+NSObjectTag.h */,
+				E5BB432E1AD54DAB00012BF6 /* UIView+NSObjectTag.m */,
+				E5BB432F1AD54DAB00012BF6 /* UIWindow+PazLabs.h */,
+				E5BB43301AD54DAB00012BF6 /* UIWindow+PazLabs.m */,
+			);
+			path = Extends;
+			sourceTree = "<group>";
+		};
+		E5BB43201AD54DAB00012BF6 /* UIAlertView+Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				E5BB43211AD54DAB00012BF6 /* RIButtonItem.h */,
+				E5BB43221AD54DAB00012BF6 /* RIButtonItem.m */,
+				E5BB43231AD54DAB00012BF6 /* UIAlertView+Blocks.h */,
+				E5BB43241AD54DAB00012BF6 /* UIAlertView+Blocks.m */,
+			);
+			path = "UIAlertView+Blocks";
+			sourceTree = "<group>";
+		};
+		E5BB43311AD54DAB00012BF6 /* ExternalLibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ExternalLibs;
+			sourceTree = "<group>";
+		};
+		E5BB43381AD54DAB00012BF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5BB43391AD54DAB00012BF6 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E5BB43391AD54DAB00012BF6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F24CF6A00BB5E2C7ACA72B67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5BB43C11AD5696B00012BF6 /* MobileCoreServices.framework */,
+				E5BB43BF1AD5696300012BF6 /* SystemConfiguration.framework */,
+				E5BB43BD1AD5695A00012BF6 /* UIKit.framework */,
+				E5BB43BB1AD5694900012BF6 /* CoreData.framework */,
+				E5BB43B91AD5694100012BF6 /* Foundation.framework */,
+				344C7004D4A8788E25EFF61A /* Pods_Trails_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5BB424E1AD54B0700012BF6 /* Trails-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5BB42721AD54B0700012BF6 /* Build configuration list for PBXNativeTarget "Trails-iOS" */;
+			buildPhases = (
+				4BEE3E488E019ED1124439F0 /* Check Pods Manifest.lock */,
+				E5BB424B1AD54B0700012BF6 /* Sources */,
+				E5BB424C1AD54B0700012BF6 /* Frameworks */,
+				E5BB424D1AD54B0700012BF6 /* Resources */,
+				ECE7F9852DEE551042B48296 /* Embed Pods Frameworks */,
+				9D97D8727F23AC75EE99BE00 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trails-iOS";
+			productName = "Trails-iOS";
+			productReference = E5BB424F1AD54B0700012BF6 /* Trails-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5BB42671AD54B0700012BF6 /* Trails-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5BB42751AD54B0700012BF6 /* Build configuration list for PBXNativeTarget "Trails-iOSTests" */;
+			buildPhases = (
+				E5BB42641AD54B0700012BF6 /* Sources */,
+				E5BB42651AD54B0700012BF6 /* Frameworks */,
+				E5BB42661AD54B0700012BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5BB426A1AD54B0700012BF6 /* PBXTargetDependency */,
+			);
+			name = "Trails-iOSTests";
+			productName = "Trails-iOSTests";
+			productReference = E5BB42681AD54B0700012BF6 /* Trails-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5BB42471AD54B0700012BF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Callender Bell Development";
+				TargetAttributes = {
+					E5BB424E1AD54B0700012BF6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					E5BB42671AD54B0700012BF6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = E5BB424E1AD54B0700012BF6;
+					};
+				};
+			};
+			buildConfigurationList = E5BB424A1AD54B0700012BF6 /* Build configuration list for PBXProject "Trails-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5BB42461AD54B0700012BF6;
+			productRefGroup = E5BB42501AD54B0700012BF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5BB424E1AD54B0700012BF6 /* Trails-iOS */,
+				E5BB42671AD54B0700012BF6 /* Trails-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5BB424D1AD54B0700012BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BB435F1AD54DAB00012BF6 /* LoginStoryboard.storyboard in Resources */,
+				E5BB42601AD54B0700012BF6 /* Images.xcassets in Resources */,
+				E5BB43631AD54DAB00012BF6 /* SplashStoryboard.storyboard in Resources */,
+				E5BB43651AD54DAB00012BF6 /* SplashStoryboard~ipad.storyboard in Resources */,
+				E5BB42791AD54C7C00012BF6 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BB42661AD54B0700012BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BEE3E488E019ED1124439F0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D97D8727F23AC75EE99BE00 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trails-iOS/Pods-Trails-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECE7F9852DEE551042B48296 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trails-iOS/Pods-Trails-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5BB424B1AD54B0700012BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BB43601AD54DAB00012BF6 /* RecoverPasswordViewController.m in Sources */,
+				E5BB42581AD54B0700012BF6 /* AppDelegate.m in Sources */,
+				E5BB43891AD54DAB00012BF6 /* MBProgressHUD.m in Sources */,
+				E5BB439D1AD54DAB00012BF6 /* UIImage+Tint.m in Sources */,
+				E5BB439A1AD54DAB00012BF6 /* UIAlertView+Blocks.m in Sources */,
+				E5BB43871AD54DAB00012BF6 /* LoadingView.m in Sources */,
+				E5BB43971AD54DAB00012BF6 /* NSString+HTMLStrip.m in Sources */,
+				E5BB43981AD54DAB00012BF6 /* UIActionSheet+Blocks.m in Sources */,
+				E5BB439F1AD54DAB00012BF6 /* UIView+NSObjectTag.m in Sources */,
+				E5BB43881AD54DAB00012BF6 /* LoadingViewManager.m in Sources */,
+				E5BB439C1AD54DAB00012BF6 /* UIImage+H568.m in Sources */,
+				E5BB43991AD54DAB00012BF6 /* RIButtonItem.m in Sources */,
+				E5BB439E1AD54DAB00012BF6 /* UILabel+Boldify.m in Sources */,
+				E5BB42551AD54B0700012BF6 /* main.m in Sources */,
+				E5BB43621AD54DAB00012BF6 /* TermsViewController.m in Sources */,
+				E5BB435E1AD54DAB00012BF6 /* LoginHomeViewController.m in Sources */,
+				E5BB43611AD54DAB00012BF6 /* SignUpViewController.m in Sources */,
+				E5BB439B1AD54DAB00012BF6 /* UIBarButtonItem+Badge.m in Sources */,
+				E5BB43A01AD54DAB00012BF6 /* UIWindow+PazLabs.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BB42641AD54B0700012BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BB426F1AD54B0700012BF6 /* Trails_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5BB426A1AD54B0700012BF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5BB424E1AD54B0700012BF6 /* Trails-iOS */;
+			targetProxy = E5BB42691AD54B0700012BF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E5BB42701AD54B0700012BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5BB42711AD54B0700012BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5BB42731AD54B0700012BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8CD2029BC0A1E7C36432D33 /* Pods-Trails-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Trails-iOS/ExternalLibs/AviarySDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trails-iOS/Trails-iOS-Prefix.pch";
+				INFOPLIST_FILE = "Trails-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5BB42741AD54B0700012BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 816F8F480920E71A18830139 /* Pods-Trails-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Trails-iOS/ExternalLibs/AviarySDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trails-iOS/Trails-iOS-Prefix.pch";
+				INFOPLIST_FILE = "Trails-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E5BB42761AD54B0700012BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Trails-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trails-iOS.app/Trails-iOS";
+			};
+			name = Debug;
+		};
+		E5BB42771AD54B0700012BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Trails-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trails-iOS.app/Trails-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5BB424A1AD54B0700012BF6 /* Build configuration list for PBXProject "Trails-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5BB42701AD54B0700012BF6 /* Debug */,
+				E5BB42711AD54B0700012BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5BB42721AD54B0700012BF6 /* Build configuration list for PBXNativeTarget "Trails-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5BB42731AD54B0700012BF6 /* Debug */,
+				E5BB42741AD54B0700012BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5BB42751AD54B0700012BF6 /* Build configuration list for PBXNativeTarget "Trails-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5BB42761AD54B0700012BF6 /* Debug */,
+				E5BB42771AD54B0700012BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5BB42471AD54B0700012BF6 /* Project object */;
+}
