@@ -1,31 +1,33 @@
-# Project Name
+# Trails for iOS
 
-TODO: Write a project description
+This is the iOS version of the Trails project.
 
 ## Installation
 
-TODO: Describe the installation process
+To obtain a version of the source gode simply pull it from this repository and initialize Cocoapods.
 
-## Usage
+## Cocoapods initialization
 
-TODO: Write usage instructions
+This project uses Cocoapods for dependency management. Usually the pods are excluded from Git because they can be downloaded on demand for each client. To setup Cocoapods follow the following steps:
 
-## Contributing
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
-## History
-
-TODO: Write history
-
-## Credits
-
-TODO: Write credits
+1. Follow the tutorial here to install Cocoapods on your machine - https://cocoapods.org/
+2. Open Terminal and navigate to the project directory.
+3. Run `pod install`.
+4. Once the process finished open `Trails-iOS.xcworkspace` and use that workspace from now on.
+5. Make sure to exclude any new Pods when comitting to GitHub.
 
 ## License
 
-TODO: Write license
+Copyright 2015 Callender Bell Development
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
