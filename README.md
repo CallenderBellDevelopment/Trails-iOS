@@ -12,8 +12,8 @@ This project uses Cocoapods for dependency management. Usually the pods are excl
 
 1. Follow the tutorial here to install Cocoapods on your machine - https://cocoapods.org/
 2. Open Terminal and navigate to the project directory.
-3. Run `pod install`.
-4. Once the process finished open `Trails-iOS.xcworkspace` and use that workspace from now on.
+3. Run `pod install`
+4. Once the process has finished open `Trails-iOS.xcworkspace` and use that workspace from now on.
 5. Make sure to exclude any new Pods when comitting to GitHub.
 
 ## License
