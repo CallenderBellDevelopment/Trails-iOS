@@ -20,6 +20,7 @@
     #import <QuartzCore/QuartzCore.h>
     #import <AFNetworking/AFNetworking.h>
     #import <AFNetworking/UIImageView+AFNetworking.h>
+    #import <Trails_iOS_SDK/Trails_iOS_SDK.h>
 
     #import "UIImage+Tint.h"
     #import "Constants.h"
