@@ -39,7 +39,6 @@
 - (void)onClickLogin {
     [self.view endEditing:YES];
     
-    [Test doTest];
     NSLog(@"CLICKED LOGIN");
 }
 
