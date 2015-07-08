@@ -39,7 +39,24 @@
 - (void)onClickLogin {
     [self.view endEditing:YES];
     
-    NSLog(@"CLICKED LOGIN");
+    if ([InputValidator validateLoginInput:usernameField.text password:passwordField.text viewController:self]) {
+        [[LoadingViewManager getInstance] addLoadingToView:self.navigationController.view withMessage:@"Processing"];
+        
+        [TRSUserManager loginWithUsername:usernameField.text password:passwordField.text successBlock:^(TRSResponseObject *response) {
+            [[LoadingViewManager getInstance] removeLoadingView];
+            
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 0.3 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+                [[NSNotificationCenter defaultCenter] postNotificationName:NOTIFICATION_LOG_IN object:nil];
+            });
+        } failureBlock:^(TRSResponseObject *response) {
+            [[LoadingViewManager getInstance] removeLoadingView];
+            
+            if (response.reason == AUTHORIZATION_NEEDED)
+                [Utils showMessage:APP_NAME message:@"The username or password are incorrect."];
+            else
+                [Utils showMessage:APP_NAME message:response.message];
+        }];
+    }
 }
 
 - (void)onClickFacebookLogin {
